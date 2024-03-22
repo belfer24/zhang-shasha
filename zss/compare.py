@@ -309,3 +309,12 @@ def distance(A, B, get_children, insert_cost, remove_cost, update_cost,
         return treedists[-1][-1], operations[-1][-1]
     else:
         return treedists[-1][-1]
+def random_function():
+    for i in A.keyroots:
+    for j in B.keyroots:
+        treedist(i, j)
+
+    if return_operations:
+        return treedists[-1][-1], operations[-1][-1]
+    else:
+        return treedists[-1][-1]
